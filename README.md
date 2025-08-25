@@ -1,4 +1,4 @@
-ABC Company Employee Data Analysis
+**ABC Company Employee Data Analysis**
 ************************************
 
 Overview:
@@ -11,7 +11,7 @@ Preprocessing:
 - Created **age groups** using binning.
 
 
-Analysis Tasks:
+**Analysis Tasks:**
 1. **Team Distribution**
    - Counted employees per team.
    - Calculated percentage split relative to total employees.
@@ -35,21 +35,21 @@ Analysis Tasks:
    - Computed Pearson correlation coefficient.
    - Visualized with scatterplot and regression line.
 
-Graphical Representations:
+**Graphical Representations:**
 - Bar charts (team & position distribution)
 - Pie chart (percentage split by team)
 - Age group distribution
 - Salary expenditure comparisons
 - Scatter plot of Age vs. Salary with trend line
 
-Key Insights:
+**Key Insights:**
 - Majority of employees are in the **25–35 age group**.
 - The largest team is New Orleans Pelicans with 4.15 % of employees.
 - Most employees are in the SG position with employee count 102.
 - The highest salary expenditure is from team 'Los Angeles Lakers' and position 'SF', totaling 31,866,445.00.
 - Correlation between Age and Salary: 0.21 (positive)
 
-Repository Contents:
+**Repository Contents:**
 - `Employee Analysis Project.ipynb` → Notebook with code, plots, and explanations.
 - `ABC Company.xlsx` → Dataset.
 - `README.md` → Project overview and insights.
