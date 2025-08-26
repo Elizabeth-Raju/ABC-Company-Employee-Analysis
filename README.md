@@ -1,14 +1,17 @@
 **ABC Company Employee Data Analysis**
 ************************************
 
-Overview:
-This project analyzes employee data from ABC Company (458 rows × 9 columns).  
-The goal is to preprocess the dataset, perform meaningful analysis, and visualize key insights.
+**Overview:**
 
-Preprocessing:
-- Checked for missing values and handled them where necessary.
-- Converted categorical variables into appropriate formats.
-- Created **age groups** using binning.
+This project explores employee-related data for ABC Company with the goal of uncovering organizational structure, workforce composition, and insightful trends. The analysis was conducted in Python using Pandas, NumPy, Matplotlib, and Seaborn within a Jupyter Notebook.
+
+The project involves data cleaning, preprocessing, exploratory analysis, and visualization to present clear insights about the employee distribution, roles, and demographics.
+
+**Preprocessing Steps**
+ - Data Import: The dataset (ABC Company.xlsx) was loaded into a Pandas DataFrame.
+ - Data Cleaning:
+      - Replaced inconsistent entries in the Height column with random values between 150–180 cm to maintain consistency and realism.
+      - Checked data structure using .info(), .describe(), and .head() to ensure accuracy.
 
 
 **Analysis Tasks:**
@@ -53,3 +56,9 @@ Preprocessing:
 - `Employee Analysis Project.ipynb` → Notebook with code, plots, and explanations.
 - `ABC Company.xlsx` → Dataset.
 - `README.md` → Project overview and insights.
+
+**Tools and Libraries**
+- Python
+- Pandas & NumPy → Data cleaning and manipulation
+- Matplotlib & Seaborn → Data visualization
+- Jupyter Notebook → Interactive analysis
